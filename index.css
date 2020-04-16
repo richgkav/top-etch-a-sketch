@@ -1,0 +1,11 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    background-color: darkcyan;
+}
+
+.grid-tile {
+    background-color: black;
+    margin: 5px;
+    height: 32px;
+}
